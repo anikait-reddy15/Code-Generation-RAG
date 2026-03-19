@@ -1,11 +1,10 @@
-# finetune/prep_dataset.py
 import json
 import os
 
 def prepare_local_dataset():
     # Define relative paths based on the project structure
-    input_path = "../data/training_data.json"
-    output_path = "../data/training_data.jsonl"
+    input_path = r"C:\Projects\Code Generation RAG\data\training_data.json"
+    output_path = r"C:\Projects\Code Generation RAG\data\training_data.jsonl"
     
     # Verify the input file actually exists before starting
     if not os.path.exists(input_path):

@@ -31,7 +31,7 @@ def prepare_local_dataset():
             if input_text and input_text.strip() != "":
                 user_content += "\n\n" + input_text
                 
-            # Restructure into the ChatML 'messages' format Unsloth expects
+            # Restructure data into the ChatML 'messages' format Unsloth expects
             formatted_row = {
                 "messages": [
                     {"role": "user", "content": user_content},

@@ -15,6 +15,7 @@ trl
 peft
 bitsandbytes
 datasets
+unsloth
 
 # --- Utilities ---
 pydantic
